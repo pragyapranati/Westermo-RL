@@ -1,0 +1,10 @@
+seaborn
+numpy
+pandas
+torch
+streamlit
+scipy
+matplotlib
+plotly
+scikit-learn
+
