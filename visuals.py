@@ -48,6 +48,11 @@ choice = st.sidebar.radio("Go to", options)
 
 if choice == "Overview":
     st.title("Westermo System Performance Dashboard")
+    st.markdown("<medium>- Collected from Westermo industrial network devices (routers, switches).</medium>", unsafe_allow_html=True)
+    st.markdown("<medium>- Data sourced via telemetry logs, SNMP, and device diagnostics.</medium>", unsafe_allow_html=True)
+    st.markdown("<medium>- Includes metrics like CPU load, memory usage, throughput, errors, and uptime.</medium>", unsafe_allow_html=True)
+    st.markdown("<medium>- Used for monitoring, diagnostics, and predictive maintenance.</medium>", unsafe_allow_html=True)
+
     st.write("### Sample Data")
     st.dataframe(df.head())
 
